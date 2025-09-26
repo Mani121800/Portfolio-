@@ -1,1 +1,2 @@
-web: gunicorn Django_Portfilio_MohammadBurhan.wsgi --log-file -
+web: gunicorn Django_Portfilio_MohammadBurhan.wsgi --bind 0.0.0.0:$PORT
+
